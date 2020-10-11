@@ -1,0 +1,27 @@
+{
+  "name": "abstract",
+  "version": "1.0.0",
+  "description": "Careaxiom task using plain node.js callbacks",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhanmaseel/abstract.git"
+  },
+  "author": "Burhan Maseel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burhanmaseel/abstract/issues"
+  },
+  "homepage": "https://github.com/burhanmaseel/abstract#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
